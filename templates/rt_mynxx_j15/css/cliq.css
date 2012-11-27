@@ -1,0 +1,56 @@
+body{font-family:'MavenProRegular', Verdana, sans-serif; line-height:1.36em; background:#d7e6f0; color:#333; font-size:1.1em;}
+.wrapper{margin:0 auto; width:90%;}
+#content{margin:30px auto 50px auto; width:70%; padding:15px 50px 25px; background:#fff; border:#0071BE 1px solid;}
+#content img{float:right;} 
+h1, h2{font-weight:normal;}
+h1{line-height:110%; margin:10px 0 25px 0; color:#F00; font-family:'KameronRegular', Verdana, sans-serif;}
+h2{font-size:1.2em; margin-bottom:3px; color:#0071BE; font-family:'MavenProBold', Verdana, sans-serif;}
+p{margin-top:0;}
+ul{margin-top:-9px;}
+li{padding-bottom:15px;}
+.clr{clear:both;}
+
+@font-face {
+    font-family: 'MavenProBold';
+    src: url('../fonts/maven_pro_bold-webfont.eot');
+    src: url('../fonts/maven_pro_bold-webfont.eot?#iefix') format('eot'),
+         url('../fonts/maven_pro_bold-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_bold-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_bold-webfont.svg#webfontNOU7iUTL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MavenProMedium';
+    src: url('../fonts/maven_pro_medium-webfont.eot');
+    src: url('../fonts/maven_pro_medium-webfont.eot?#iefix') format('eot'),
+         url('../fonts/maven_pro_medium-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_medium-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_medium-webfont.svg#webfontNj5iy4Dl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MavenProRegular';
+    src: url('../fonts/maven_pro_regular-webfont.eot');
+    src: url('../fonts/maven_pro_regular-webfont.eot?#iefix') format('eot'),
+         url('../fonts/maven_pro_regular-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_regular-webfont.svg#webfontOM8fITNz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KameronRegular';
+    src: url('../fonts/kameron-regular-webfont.eot');
+    src: url('../fonts/kameron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kameron-regular-webfont.woff') format('woff'),
+         url('../fonts/kameron-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kameron-regular-webfont.svg#KameronRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

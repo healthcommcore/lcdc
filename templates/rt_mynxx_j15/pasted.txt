@@ -1,0 +1,7 @@
+
+#main-body ul.menu li {zoom:1;}
+#main-body ul.menu, #main-body ul.menu li {position:relative; list-style-image:none;}
+#main-body ul.menu ul li a{margin-left:-24px;}
+#page ul{margin-left:40px;}
+#logo{top:25px;}
+#cliq_participants{width:50%;}
