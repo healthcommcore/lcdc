@@ -112,21 +112,21 @@ $body_style       = $this->params->get("bodyStyle", "dark");
 						<?php endif; ?>
 					</a>
 					<?php endif; ?>
-					<?php if($mtype != "none") : ?>
-					<!--<div id="horiz-menu" class="<?php echo $mtype; ?>">
-					<?php if($mtype != "module") : ?>
-						<?php echo $topnav; ?>
-					<?php endif ?>
-                    </div>-->
-                    <?php if($this->countModules('toolbar')) : ?>
-						<jdoc:include type="modules" name="toolbar" style="xhtml" />
-					<?php endif; ?>
-					<?php endif; ?>
-                    <?php if($this->countModules('search')) : ?>
-                        <div id="search">
-                            <jdoc:include type="modules" name="search" style="xhtml" />
-                        </div>
-                    <?php endif; ?>    
+					<!--<div id="horiz-menu" class="<?php //echo $mtype; ?>">
+					<?php //if($mtype != "module") : ?>
+						<?php //echo $topnav; ?>
+					<?php //endif ?>
+					</div>-->
+					<div class="top-menu-and-search">
+						 <?php if($this->countModules('toolbar')) : ?>
+							<jdoc:include type="modules" name="toolbar" style="xhtml" />
+						<?php endif; ?>
+						<?php if($this->countModules('search')) : ?>
+								<div id="search">
+										<jdoc:include type="modules" name="search" style="xhtml" />
+								</div>
+						<?php endif; ?>    
+					</div>
                     <?php if ($show_textsizer=="true") : ?>
 							<div id="accessibility">
 								<div id="buttons">

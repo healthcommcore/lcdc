@@ -715,9 +715,10 @@ pre {overflow: auto;}
 #container{background: #fff url("../images/lcdc_bkgrd_right.png") 100% 0 no-repeat;}
 #bottom-bg{margin-top:-120px; background:url("../images/lcdc_bkgrd_bottom.png") 0 100% no-repeat;height:217px;}
 #footer{width:100%; height:100px;}
-#search{float:right;}
+.moduletable_topmenu, #search, .top-menu-and-search{float:right;}
 #search label{display:none;}
 #search input{border:#0071BE 1px solid; height:20px; padding-left:2px;}
+.top-menu-and-search{width:400px;}
 
 
 h1.home{font-size:2.0em; line-height: 1.0em; color:#425694; margin-bottom:30px;}
@@ -768,7 +769,7 @@ div.intro{color: #768B98; font-size: 1.15em; line-height:1.4em; margin-bottom:0;
 div.people table{width:100%; border-collapse:collapse; margin:5px 0 10px;}
 div.people table td{width:50%; padding:5px 0 16px;}
 
-.moduletable_topmenu{float:right;}
+.moduletable_topmenu{}
 .moduletable_topmenu ul{margin:15px 0 8px 0;}
 .moduletable_topmenu ul, .moduletable_topmenu li{float:left; list-style:none;}
 .moduletable_topmenu li{margin-left:18px;}
